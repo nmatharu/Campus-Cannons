@@ -1,0 +1,57 @@
+<resources>
+
+    <string name="app_name">Campus Cannons</string>
+
+    <string name="menu_play">PLAY</string>
+    <string name="menu_prof">PROFILE</string>
+    <string name="menu_pi">BATTLE INDEX</string>
+    <string name="menu_ldr">LEADERBOARD</string>
+    <string name="menu_help">HOW TO PLAY/HELP</string>
+
+    <string name="prof_name_req">NAMES MUST BE 1 TO 12 CHARACTERS</string>
+    <string name="prof_edit_name">EDIT NAME:</string>
+    <string name="prof_name">NAME:</string>
+    <string name="prof_level">LEVEL:\u0020\u0020</string>
+    <string name="prof_XP">XP:\u0020\u0020</string>
+    <string name="prof_coins">COINS:\u0020\u0020</string>
+    <string name="prof_update">UPDATE</string>
+    <string name="prof_back">BACK</string>
+
+    <string name="bi_title">BATTLE INDEX</string>
+    <string name="bi_view_all_button">VIEW ALL HISTORY</string>
+    <string name="bi_user_query_advice">OR QUERY FOR A SUBSET OF HISTORY</string>
+    <string name="bi_player_lvl">PLAYER LVL:</string>
+    <string name="bi_enemy_lvl">ENEMY LVL:</string>
+    <string name="bi_battle_result">RESULT:</string>
+    <string name="bi_view_query_subset">VIEW QUERY SUBSET</string>
+    <string name="bi_table_player_lvl">PLAYER LEVEL</string>
+    <string name="bi_table_enemy_lvl">ENEMY LEVEL</string>
+    <string name="bi_table_result">BATTLE RESULT</string>
+    <string name="bi_table_datetime">DATE AND TIME</string>
+
+    <string name="inv_title">INVENTORY ACTIVITY</string>
+    <string name="hub_title">HUB ACTIVITY</string>
+    <string name="bi_trashcan_desc">Trash can</string>
+    <string name="leaderboard_title">LEADERBOARD</string>
+    <string name="leaderboard_update">RE-UPDATE LEADERBOARD</string>
+    <string name="lbr_id">ID#</string>
+    <string name="lbr_name">NAME</string>
+    <string name="lbr_level">LEVEL</string>
+    <string name="lbr_xp">XP</string>
+    <string name="hubbutton_purchased">PURCHASED</string>
+    <string name="inventory_button_equipped">EQUIPPED</string>
+    <string name="inventory_button_equip">EQUIP</string>
+    <string name="items_image">IMAGE</string>
+    <string name="items_name">NAME</string>
+    <string name="items_mindmg">MIN DMG</string>
+    <string name="items_maxdmg">MAX DMG</string>
+    <string name="items_reload">RELOAD</string>
+    <string name="hub_purchase">PURCHASE</string>
+    <string name="items_currently">CURRENTLY:</string>
+    <string name="items_coins">COINS:</string>
+    <string name="inventory_title">INVENTORY</string>
+    <string name="inventory_equip">EQUIP</string>
+    <string name="cannon_image_desc">cannon image</string>
+    <string name="prof_reset_weapons">RESET WEAPONS</string>
+
+</resources>

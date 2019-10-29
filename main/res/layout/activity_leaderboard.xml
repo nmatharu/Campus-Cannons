@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".leaderboard.LeaderboardActivity"
+    android:orientation="horizontal"
+    android:background="@drawable/muted_bg"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="3"
+        android:paddingTop="10dp"
+        android:paddingBottom="18dp"
+        android:paddingStart="18dp"
+        android:paddingEnd="18dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:textColor="@color/black"
+            android:paddingBottom="8dp"
+            android:fontFamily="@font/dimbo"
+            android:text="@string/leaderboard_title"/>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="4sp"
+            android:orientation="horizontal"
+            android:id="@+id/leaderboardRowLayout">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="#AAAAAA"
+                android:layout_gravity="center"
+                android:layout_marginEnd="8sp"
+                android:fontFamily="@font/dimbo"
+                android:textSize="16sp"
+                android:id="@+id/lbrPlayerID"
+                android:text="@string/lbr_id"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:layout_gravity="center"
+                android:fontFamily="@font/dimbo"
+                android:layout_marginEnd="8sp"
+                android:textSize="16sp"
+                android:id="@+id/lbrPlayerName"
+                android:text="@string/lbr_name"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:fontFamily="@font/dimbo"
+                android:layout_marginEnd="8sp"
+                android:textSize="16sp"
+                android:id="@+id/lbrPlayerLevel"
+                android:text="@string/lbr_level"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/black"
+                android:layout_gravity="center"
+                android:fontFamily="@font/dimbo"
+                android:layout_marginEnd="8sp"
+                android:textSize="16sp"
+                android:id="@+id/lbrPlayerXP"
+                android:text="@string/lbr_xp"/>
+
+        </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/leaderboardRecyclerView">
+        </android.support.v7.widget.RecyclerView>
+
+        <Button
+            android:id="@+id/leaderboardUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/leaderboard_update"
+            android:fontFamily="@font/dimbo"
+            android:layout_gravity="start"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:padding="18dp"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/leaderboardBackButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:text="@string/prof_back"
+            android:fontFamily="@font/dimbo"
+            android:layout_gravity="end"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="4sp"
+    android:orientation="horizontal"
+    android:id="@+id/battleIndexRowLayout">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginEnd="8sp"
+        android:textSize="14sp"
+        android:id="@+id/birPlayerLevel"
+        android:text=""/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginEnd="8sp"
+        android:textSize="14sp"
+        android:id="@+id/birEnemyLevel"
+        android:text=""/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:layout_marginEnd="8sp"
+        android:textSize="14sp"
+        android:id="@+id/birBattleResult"
+        android:text=""/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:layout_gravity="center"
+        android:layout_marginEnd="8sp"
+        android:textSize="14sp"
+        android:id="@+id/birDateTime"
+        android:text=""/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/delete_icon"
+        android:id="@+id/birDeleteIcon"
+        android:contentDescription="@string/bi_trashcan_desc"
+        />
+
+</LinearLayout>

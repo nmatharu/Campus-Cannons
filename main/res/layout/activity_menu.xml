@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="horizontal"
+    android:background="@drawable/title_bg"
+    android:paddingLeft="60dp"
+    android:paddingRight="60dp"
+    android:paddingBottom="12dp"
+    android:gravity="bottom"
+    tools:context=".menu.MenuActivity">
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="0dp"
+        android:layout_height="96sp"
+        android:layout_weight="2"
+        android:textSize="48sp"
+        android:fontFamily="@font/dimbo"
+        android:text="@string/menu_play" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/profileButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/dimbo"
+            android:text="@string/menu_prof" />
+
+        <Button
+            android:id="@+id/battleIndexButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/dimbo"
+            android:text="@string/menu_pi" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/leaderboardButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/dimbo"
+            android:text="@string/menu_ldr" />
+
+        <Button
+            android:id="@+id/websiteButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:fontFamily="@font/dimbo"
+            android:text="@string/menu_help" />
+    </LinearLayout>
+
+</LinearLayout>
